@@ -1,0 +1,27 @@
+{
+  "name": "kafka_pocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "highlevelproducer_consumer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "kafka-node": "^4.0.0",
+    "npm": "^6.6.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }  
+}
